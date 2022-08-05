@@ -24,7 +24,7 @@
 #  .gamFit                Generalized Additive Model
 #  .pprFit                Projection Pursuit Regression Model
 #  .nnetFit               Feedforward Neural Network Model
-#  .polymarsFit           Polytochomous MARS Model
+#  .polymarsFit           Polychotomous MARS Model
 ###############################################################################
 
 
@@ -59,7 +59,7 @@ regFit <-
     #     GAM         Generalized Additive Modelling
     #     PPR         Projection Pursuit Regression
     #     NNET        Feedforward Neural Net
-    #     POLYMARS    Polytochomous MARS Modeling
+    #     POLYMARS    Polychotomous MARS Modeling
 
     # Notes:
     #   Available Methods are
