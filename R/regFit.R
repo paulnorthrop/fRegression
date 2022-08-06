@@ -52,7 +52,7 @@ regFit <-
     #   Common function call for several selected regression models.
 
     # Details:
-    #   This is a wrapper function for the following regrssion models:
+    #   This is a wrapper function for the following regression models:
     #     LM          Linear Regression Modelling
     #     RLM         Robust Linear Regression Modelling
     #     GLM         Generalized Linear Modelling
