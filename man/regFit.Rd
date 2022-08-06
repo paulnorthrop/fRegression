@@ -17,7 +17,7 @@
 
 \usage{    
 regFit(formula, data, family = gaussian, 
-    use = c("lm", "rlm", "glm","gam", "ppr", "nnet", "polymars"), 
+    use = c("lm", "rlm", "glm", "gam", "ppr", "nnet", "polymars"), 
     title = NULL, description = NULL, \dots)
 }
 
@@ -56,12 +56,13 @@ regFit(formula, data, family = gaussian,
         denotes the regression method by a character string used to fit 
         the model.
         \code{method} must be one of the strings in the default argument.\cr
-        \code{"LM"}, for linear regression models, \cr
-        \code{"GLM"} for generalized linear modelling,\cr
-        \code{"GAM"} for generalized additive modelling,\cr
-        \code{"PPR"} for projection pursuit regression,\cr
-        \code{"POLYMARS"} for monochotomous MARS, and\cr
-        \code{"NNET"} for feedforward neural network modelling.
+        \code{"lm"}, for linear regression models, \cr
+        \code{"rlm"}, for robust linear regression models, \cr
+        \code{"glm"} for generalized linear modelling, \cr
+        \code{"gam"} for generalized additive modelling, \cr
+        \code{"ppr"} for projection pursuit regression, \cr
+        \code{"nnet"} for feedforward neural network modelling, and \cr
+        \code{"polymars"} for polychotomous MARS.
         }    
     \item{title}{
         a character string which allows for a project title.
