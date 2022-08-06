@@ -1,11 +1,12 @@
 Package: fRegression
 Title: Rmetrics - Regression Based Decision and Prediction
-Date: 2022-07-14
+Date: 2022-08-06
 Version: 4021.83
-Author: Diethelm Wuertz [aut],
-	Tobias Setz [aut,cre],
-	Yohan Chalabi [aut]
-Maintainer: Tobias Setz <tobias.setz@live.com>
+Authors@R: c(person("Diethelm", "Wuertz", role = "aut")
+	   , person("Tobias", "Setz", role = "aut")
+	   , person("Yohan", "Chalabi", role = "aut")
+	   , person(given = c("Paul", "J."), family = "Northrop", 
+                    role = c("cre", "ctb"), email = "p.northrop@ucl.ac.uk") )
 Description: A collection of functions for linear and non-linear regression modelling. 
 	It implements a wrapper for several regression models available in the base and
 	contributed packages of R. 
