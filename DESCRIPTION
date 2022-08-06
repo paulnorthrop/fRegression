@@ -16,3 +16,4 @@ Suggests: MASS, RUnit
 LazyData: yes
 License: GPL (>= 2)
 URL: https://www.rmetrics.org
+BugReports: https://r-forge.r-project.org/projects/rmetrics
