@@ -14,7 +14,6 @@ Depends: R (>= 2.15.1)
 Imports: fBasics, lmtest, MASS, methods, mgcv, nnet, polspline, stats, 
   timeDate, timeSeries, utils
 Suggests: RUnit
-LazyData: yes
 License: GPL (>= 2)
 URL: https://www.rmetrics.org
 BugReports: https://r-forge.r-project.org/projects/rmetrics
