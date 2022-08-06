@@ -359,7 +359,6 @@ Wood (2001);
   
    # LM       
    regFit(Y ~ X1 + X2 + X3, data = x, use = "lm") 
-   
    # RLM      
    regFit(Y ~ X1 + X2 + X3, data = x, use = "rlm") 
    # AM       
@@ -368,7 +367,6 @@ Wood (2001);
    regFit(Y ~ X1 + X2 + X3, data = x, use = "ppr") 
    # NNET     
    regFit(Y ~ X1 + X2 + X3, data = x, use = "nnet") 
-   
    # POLYMARS
    regFit(Y ~ X1 + X2 + X3, data = x, use = "polymars")
 }
