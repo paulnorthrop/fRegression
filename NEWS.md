@@ -1,4 +1,4 @@
-# fRegression 4021.83
+# fRegression 4021.83: revision 6281 on R-Forge
 
 * New maintainer: Paul Northrop
 * Updated DESCRIPTION with links, moved timeDate, timeSeries, fBasics from Depends: to Imports: and moved MASS from Suggests to Imports.
